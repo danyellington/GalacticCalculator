@@ -1,8 +1,8 @@
 import {BirthDate} from "./../js/calculator.js";
 
 describe('BirthDate', function(){
-  it('should find user age', function(){
-    var birthday = new Date();
+  it('should find user birthday and reurn in milliseconds', function(){
+    var birthday = new Date(birthday);
     expect(birthday).toEqual(birthday);
   });
 
