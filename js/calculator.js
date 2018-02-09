@@ -14,12 +14,18 @@ export class BirthDate{
   //     return age;
   // }
 
-  function(dateString) {
-  var birthday = +new Date(dateString);
-  return ~~((Date.now() - birthday) / (31557600000));
+//   function(dateString) {
+//   var birthday = +new Date(dateString);
+//   return ~~((Date.now() - birthday) / (31557600000));
+// }
+
+
+function() {
+  const birthday = new Date(document.getElementById("birthday").val());
+  let today = (new Date().getTime());
+  let age = today - (birthday.getTime());
+
 }
-
-
 
 
 

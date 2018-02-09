@@ -2,8 +2,8 @@ import {BirthDate} from "./../js/calculator.js";
 
 describe('BirthDate', function(){
   it('should find user age', function(){
-    var birthday = new Birthday("2000/08/08");
-    expect(birthday).toEqual("2000/08/08");
+    var birthday = new Date();
+    expect(birthday).toEqual(birthday);
   });
 
   // it('should add match to gender array', function(){
