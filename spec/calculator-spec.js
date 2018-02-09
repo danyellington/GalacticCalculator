@@ -1,4 +1,4 @@
-import {Match} from "./../js/valentine.js";
+import {Match} from "./../js/calculator.js";
 
 describe('Match', function(){
   it('should find match user', function(){
