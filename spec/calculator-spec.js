@@ -12,11 +12,11 @@ import {Age} from "./../js/calculator.js";
   //   console.log("test" +matchUpdate);
   //   expect(matchUpdate).toEqual(["Ted"]);
   // });
-describe('BirthDate', function(){
-  it('should return birthDate in seconds', function(){
-  var age = new age(2);
-  expect(age).toEqual(age);
-});
-
-
-});
+// describe('getAge', function(){
+//   it('should return birthDate in seconds', function(){
+//   var age = new age(2);
+//   expect(age).toEqual(age);
+// });
+//
+//
+// });
