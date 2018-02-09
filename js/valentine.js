@@ -10,19 +10,16 @@ export class Match{
 genderArray() {
   let maleArray = [];
   let femaleArray = [];
-  {
-  if (this.gender === "male") {
-    maleArray.push(match);
-  } else if (this.gender === "female") {
-    femaleArray.push(match);
+  if (this.gender == "Male") {
+    maleArray.push(this.name);
+    return maleArray;
+  } else if (this.gender == "female") {
+    femaleArray.push(this.name);
+    return femaleArray;
   }
 }
-}
 
-
-
-
-prefence(){
+preference(){
   if (this.preference === "Man") {
     return maleArray;
   }else {
