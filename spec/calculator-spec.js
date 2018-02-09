@@ -1,7 +1,7 @@
-import {BirthDate} from "./../js/calculator.js";
+import {Age} from "./../js/calculator.js";
 
 // describe('BirthDate', function(){
-//   it('should find user birthday and reurn in milliseconds', function(){
+//   it('should find user birthday and return in milliseconds', function(){
 //     var birthday = new Date(birthday);
 //     expect(birthday).toEqual(birthday);
 //   });
@@ -14,8 +14,8 @@ import {BirthDate} from "./../js/calculator.js";
   // });
 describe('BirthDate', function(){
   it('should return birthDate in seconds', function(){
-  var birthday = new birthday(2);
-  expect(birthday).toEqual(birthday);
+  var age = new age(2);
+  expect(age).toEqual(age);
 });
 
 

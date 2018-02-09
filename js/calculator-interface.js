@@ -1,7 +1,8 @@
 $(document).ready(function(){
-  $('#signup').submit(function(event){
+
+  $('#age').submit(function(event){
+    var age = $('#age').val();
+    $('#results').text(age);
     event.preventDefault();
-    var birthday = $('#birthday').val();
-    $('#results').text(birthDate);
   });
 });
