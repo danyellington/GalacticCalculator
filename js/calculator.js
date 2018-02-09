@@ -1,29 +1,15 @@
-export class Match{
-  constructor(name, gender, phone, preference, description) {
-    this.name = name;
-    this.gender = gender;
-    this.phone = phone;
-    this.preference = preference;
-    this.description = description;
+export class BirthDate{
+  constructor(birthDate) {
+    this.birthDate = birthDate
   }
-
-genderArray() {
-  let maleArray = [];
-  let femaleArray = [];
-  if (this.gender == "Male") {
-    maleArray.push(this.name);
-    return maleArray;
-  } else if (this.gender == "female") {
-    femaleArray.push(this.name);
-    return femaleArray;
+  function getAge(dateString){
+    let today = new Date();
+      const birthDate = new Date(dateString);
+      const age = today.getFullYear() - birthDate.getFullYear();
+      const m = today.getMonth() - birthDate.getMonth();
+      if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+          age--;
+      }
+      return age;
   }
-}
-
-preference(){
-  if (this.preference === "Man") {
-    return maleArray;
-  }else {
-    return femaleArray;
-  }
-}
-}
+};

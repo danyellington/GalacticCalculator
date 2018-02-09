@@ -5,26 +5,22 @@
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <link href="build/css/vendor.css" rel="stylesheet" type="text/css">
-    <title>I'm bored and lonely on Valentine's day...It could be worse, but what are you doing?</title>
+    <title>How old am I...</title>
   </head>
   <body>
     <form id="signup">
       <div class="form-group">
-        <label for="name">Name: </label>
-        <input id="name" type="text">
-        <label for="phone">Phone Number: </label>
-        <input id="phone" type="text">
-        <label for="description">Brief Description: </label>
-        <input id="description" type="text">
-        <label for="prefernce">Seeking: </label>
-        <input id="preference" type="radio" name="preference" value="Man">
-        <label for="preference">Man</label>
-        <input id="preference" type="radio" name="preference" value="Woman">
-        <label for="preference">Woman</label>
-
-        <button class="btn-success" type="submit">Find</button>
+        <label for="birthday">Birthday: </label>
+        <input id="birthday" type="date">
+        <button class="btn-success" type="submit">Submit</button>
       </div>
     </form>
-    <p>
+    <p id="age"></p>
+    <ul>
+      <li id="mercury">
+      <li id="venus">
+      <li id="mars">
+      <li id="jupiter">
+    </ul>
   </body>
 </html>
