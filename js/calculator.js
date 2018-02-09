@@ -14,10 +14,10 @@ export class BirthDate{
   //     return age;
   // }
 
-//   function(dateString) {
-//   var birthday = +new Date(dateString);
-//   return ~~((Date.now() - birthday) / (31557600000));
-// }
+  function(dateString) {
+  var birthday = +new Date(dateString);
+  return ~~((Date.now() - birthday) / (31557600000));
+}
 
 
 // function age() {
@@ -27,21 +27,23 @@ export class BirthDate{
 //
 // }
 
-function ageInSeconds() {
-this.birthDate * 365 = ageInDays;
-let ageInHours = ageIndays * 24;
-let ageInMinutes = ageInHours * 60;
-let ageInSeconds = ageInMinutes * 60;
-return ageInSeconds;
-}
+// function() {
+// let birthDate * 365 = ageInDays;
+// let ageInHours = ageIndays * 24;
+// let ageInMinutes = ageInHours * 60;
+// let ageInSeconds = ageInMinutes * 60;
+// let ageInSeconds = new birthDate;
+// return birthDate;
+// }
 
-function ageOnMercury() {
-  let ageInMinutes = ageInSeconds / 60;
-  let ageInHours = ageInMinutes / 60;
-  let ageInDays = ageInHours / 24;
-  let ageOnMercury = ageInDays * 88;
-  return ageOnMercury;
-}
+
+// function(ageOnMercury) {
+//   let ageInMinutes = birthDate / 60;
+//   let ageInHours = ageInMinutes / 60;
+//   let ageInDays = ageInHours / 24;
+//   let ageOnMercury = ageInDays * 88;
+//   return ageOnMercury;
+// }
 
 
 
