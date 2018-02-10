@@ -2,9 +2,7 @@ export class Age{
   constructor(age) {
     this.age = age;
   }
-  // Age.prototype.displayAge = function(){
-  //   return age;
-  // }
+
   //dateString format: 'yyyy-mm-dd'
   // function getAge(dateString){
   //   let today = Date.now();
@@ -46,53 +44,46 @@ let ageInHours = ageIndays * 24;
 let ageInMinutes = ageInHours * 60;
 let ageInSeconds = ageInMinutes * 60;
 let ageInSeconds = new age;
+let new age = age;
 return age;
 }
 //
 //
-// function(ageOnMercury) {
-//   let ageInMinutes = birthDate / 60;
+// function Mercury(age) {
+//   let ageInMinutes = this.age / 60;
 //   let ageInHours = ageInMinutes / 60;
 //   let ageInDays = ageInHours / 24;
 //   let ageOnMercury = ageInDays * 88;
 //   return ageOnMercury;
 // }
 //
-// function(ageOnVenus) {
-//   let ageInMinutes = birthDate / 60;
+// function Venus(age) {
+//   let ageInMinutes = this.age / 60;
 //   let ageInHours = ageInMinutes / 60;
 //   let ageInDays = ageInHours / 24;
 //   let ageOnVenus = ageInDays * 225;
 //   return ageOnVenus;
 // }
 //
-// function(ageOnMars) {
-//   let ageInMinutes = birthDate / 60;
+// function Mars(age) {
+//   let ageInMinutes = this.age / 60;
 //   let ageInHours = ageInMinutes / 60;
 //   let ageInDays = ageInHours / 24;
 //   let ageOnMars = ageInDays * 687;
 //   return ageOnMars;
 // }
 //
-// function(ageOnJupiter) {
-//   let ageInMinutes = birthDate / 60;
+// function Jupiter(age) {
+//   let ageInMinutes = this.age / 60;
 //   let ageInHours = ageInMinutes / 60;
 //   let ageInDays = ageInHours / 24;
 //   let ageOnJupiter = ageInDays * 4300;
 //   return ageOnJupiter;
 // }
 
-
-
-
-
-
-
-
-
-
-
-
+  function expectancy(age) {
+    
+  }
 
 
 }

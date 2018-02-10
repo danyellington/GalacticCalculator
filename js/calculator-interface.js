@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   $('#age').submit(function(event){
     var age = $('input.age').val();
-    $('#results').text(age);
+    $('#age').text(age);
     event.preventDefault();
   });
 });
