@@ -39,13 +39,13 @@ export class Age{
 // }
 
 function getAge(age) {
-let this.age * 365 = ageInDays;
-let ageInHours = ageIndays * 24;
-let ageInMinutes = ageInHours * 60;
-let ageInSeconds = ageInMinutes * 60;
-let ageInSeconds = new age;
-let new age = age;
-return age;
+  let this.age * 365 = ageInDays;
+  let ageInHours = ageIndays * 24;
+  let ageInMinutes = ageInHours * 60;
+  let ageInSeconds = ageInMinutes * 60;
+  let ageInSeconds = new age;
+  let new age = age;
+  return age;
 }
 //
 //
@@ -82,7 +82,7 @@ return age;
 // }
 
   function expectancy(age) {
-    
+
   }
 
 
